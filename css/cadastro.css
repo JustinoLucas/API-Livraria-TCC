@@ -1,0 +1,132 @@
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 60px;
+}
+
+.cadastro-livro {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 50px;
+    font-family: 'Torus SemiBold';
+}
+
+.tabela-cadastro {
+    font-family: 'Torus SemiBold';
+    font-size: 1.2em;
+    color: white;
+    display: flex;
+    width: 400px;
+    background-color: #415A77;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 31px -3px rgba(0, 0, 0, 0.61);
+    text-align: center;
+    justify-content: center;
+}
+
+.tabela-cadastro table {
+    display: flex;
+    justify-content: center;
+}
+
+.tabela-cadastro table tr{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+
+}
+
+input[type="text"]{
+    color: white;
+    font-family: 'Torus SemiBold';
+    width: 340px;
+    padding: 5px;
+    border: 0;
+    border-bottom: 1px solid #ffffff;
+    background-color: #ffffff1c;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+input[type="text"]:focus{
+    color: white;
+    outline: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+input[type="text"]::placeholder{
+    color: white;
+    opacity: 0.6;
+}
+
+input[type="date"]{
+    color: white;
+    padding: 5px;
+    border: 0;
+    border-bottom: 1px solid #ffffff;
+    background-color: #ffffff1c;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 10px;
+}   
+
+hr{
+    display: flex;
+}
+
+#btn-cadastrar{
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    background: linear-gradient(270deg, rgba(48, 43, 99, 1) 0%, rgba(36, 36, 62, 1) 100%);
+    font-size: 1em;
+}
+
+#btn-limpar {
+    background-color: #ffffff00;
+    border: 0;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#img-limpar{
+    width: 40px;
+}
+
+input[type="password"]{
+    color: white;
+    font-family: 'Torus SemiBold';
+    width: 340px;
+    padding: 5px;
+    border: 0;
+    border-bottom: 1px solid #ffffff;
+    background-color: #ffffff1c;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+input[type="password"]:focus{
+    color: white;
+    outline: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+input[type="password"]::placeholder{
+    color: white;
+    opacity: 0.6;
+}

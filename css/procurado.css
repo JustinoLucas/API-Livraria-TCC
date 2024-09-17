@@ -1,0 +1,128 @@
+
+.pesquisando-livro{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+.capa-livro{
+    height: 600px;
+    width: 422px;
+    padding: 20px;
+}
+
+.livro2{
+    display: flex;
+    background-color: #1B263B;
+    width: 1300px;  
+}
+
+.livro-info{
+    color: white;
+    margin-top: 20px;
+    max-width: 800px;
+    min-width: 800px;
+}
+
+.livro-info p{
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+hr{
+    border-color: 1px rgba(119, 119, 119, 0.226);
+}
+
+.btn-menu-procura{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 100%;
+    background-color: #1B263B;
+}
+
+#btn-alterar{
+    margin: 20px;
+    padding: 15px;
+    border: 0px;
+    border-radius: 3px;
+    cursor: pointer;
+    background: linear-gradient(270deg, rgba(5,117,230,1) 0%, rgba(2,27,121,1) 100%);
+    color: white;
+}
+
+
+#btn-excluir{
+    margin: 20px;
+    padding: 15px;
+    border: 0px;
+    border-radius: 3px;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(51,51,51,1) 0%, rgba(221,24,24,1) 100%);
+    color: white;
+}
+
+/*****************/
+/* EXCLUIR LIVRO */
+/*****************/
+
+
+
+.btn-menu-exclui{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1B263B;
+
+}
+
+
+
+#btn-excluir-sim{
+    margin-left: 500px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Torus SemiBold';
+    font-size: 1em;
+}
+
+
+
+
+.erro{
+    padding: 30px;
+    margin: auto;
+    color: red;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.x1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.x2{
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+#deseja-p{
+    text-align: center;
+    color: red;
+    /* margin: auto; */
+    font-family: 'Torus SemiBold';
+    font-size: 2em;
+    text-transform: uppercase;
+}

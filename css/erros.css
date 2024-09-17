@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Torus SemiBold';
+    src: url('/lib/font/TorusPro-SemiBold.ttf') format('opentype');
+}
+
+
+.erro {
+    font-family: 'Torus SemiBold';
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    width: auto;
+    padding: 10px;
+    color: rgb(33, 0, 46);
+    margin-top: 30px;
+    font-size: 3em;
+}
+
+
+.sucesso {
+    font-family: 'Torus SemiBold';
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    width: auto;
+    padding: 10px;
+    color: rgb(33, 0, 46);
+    margin-top: 30px;
+    font-size: 3em;
+}
+
+.entrada {
+    font-family: 'Torus SemiBold';
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    width: auto;
+    padding: 10px;
+    color: rgb(33, 0, 46);
+    margin-top: 30px;
+    font-size: 2em;
+}
+
+.saida {
+    font-family: 'Torus SemiBold';
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    width: auto;
+    padding: 10px;
+    color: rgb(33, 0, 46);
+    margin-top: 30px;
+    font-size: 2em;
+}
+
+.pesquisa3{
+    font-family: 'Torus SemiBold';
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    width: auto;
+    padding: 10px;
+    color: rgb(33, 0, 46);
+
+}

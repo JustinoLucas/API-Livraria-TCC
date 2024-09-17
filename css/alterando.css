@@ -1,0 +1,89 @@
+.pesquisando-livro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1B263B;
+    margin: auto;
+    width: 850px;
+    padding-bottom: 53px;
+
+}
+.livro-altera{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.capa-livro{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 422px;
+    padding: 20px;
+}
+
+.livro-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.livro-info p{
+    color: white;
+    margin-top: 10px;
+    font-family: 'Torus SemiBold';
+    font-size: 1.2em;
+}
+
+.erro{
+    color: black;
+}
+
+input[type="text"]{
+    color: white;
+    font-family: 'Torus SemiBold';
+    width: 340px;
+    padding: 10px;
+    border: 0;
+    border-bottom: 1px solid #ffffff;
+    background-color: #ffffff1c;
+    /* text-align: center; */
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+input[type="text"]:focus{
+    color: white;
+    outline: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+input[type="text"]::placeholder{
+    color: white;
+    opacity: 0.6;
+}
+input[type="date"]{
+    color: white;
+    padding: 5px;
+    border: 0;
+    border-bottom: 1px solid #ffffff;
+    background-color: #ffffff1c;
+    /* text-align: center; */
+    font-family: 'Torus SemiBold';
+    font-size: 1em;
+    border-radius: 10px;
+} 
+
+
+#btn-salvar{
+    margin-left: -150px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    background: linear-gradient(270deg, rgba(48, 43, 99, 1) 0%, rgba(36, 36, 62, 1) 100%);
+    font-size: 1em;
+    
+}
