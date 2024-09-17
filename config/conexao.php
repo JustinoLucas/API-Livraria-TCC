@@ -2,16 +2,16 @@
 
 // ** MySQL Settings ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'justi512_estoque_livros');
+define('DB_NAME', 'nomedb');
 
 /** MySQL database username */
-define('DB_USER', 'justi512_lucas');
+define('DB_USER', 'usernamedb');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'wl=eOGh+&A3@');
+define('DB_PASSWORD', 'passdb');
 
 /** MySQL hostname */
-define('DB_HOST', '192.185.176.15');
+define('DB_HOST', 'ipdb');
 
 $hostname = "localhost";
 $bancodedados = "estoque_livro";
