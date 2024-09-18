@@ -2,8 +2,8 @@
 Esta API foi desenvolvida como parte de um projeto do curso de Desenvolvimento de Sistemas. O objetivo é fornecer um serviço para monitorar o estoque de uma livraria, permitindo o registro, atualização e visualização dos livros.
 
 
-## Acesso ao Proeto
-- Para acessar a API use o link a seguir [Projeto API Livraria](https://apiphplivraria.justinolucas.blog)
+## Acesso ao Projeto
+- Para acessar e testar a API use o link a seguir [Projeto API Livraria](https://apiphplivraria.justinolucas.blog)
 - Use o login `teste`
 - Use a senha `123`
 
